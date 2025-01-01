@@ -1,0 +1,13 @@
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_auto_set_lastmod: t
+#+options: tex:dvisvgm
+#+macro: kbd @@html:<kbd>$1</kbd>@@
+
+#+title: Hello World...
+#+date: 2025-01-01 Jan 17:57
+#+hugo_tags: blog meta
+#+hugo_categories: meta
+#+hugo_custom_front_matter: :license ""
+
+
