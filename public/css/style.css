@@ -1,0 +1,121 @@
+html {
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+:root {
+    --bgcolor: white;
+    --fontcolor: #444;
+    --linkcolor: #00e;
+    --visitedcolor: #551a8b;
+    --precolor: #fff;
+    --prebgcolor: #000;
+    text-align: justify;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bgcolor: black;
+        --fontcolor: white;
+        --linkcolor: #5bf;
+        --visitedcolor: #ae5ee0;
+        --precolor: #fff;
+        --prebgcolor: #383838;
+	text-align: justify;
+    }
+}
+
+content {
+    text-align: justify;
+}
+
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-family: 'Courier New', monospace;
+    color: var(--fontcolor);
+    background: var(--bgcolor);
+    text-align: justify;
+}
+
+a:link {
+    color: var(--linkcolor)
+}
+
+a:visited {
+    color: var(--visitedcolor)
+}
+
+a:active {
+    color: var(--visitedcolor)
+}
+
+h1, h2, h3 {
+    line-height: 1.2
+}
+
+p {
+    text-align: justify;
+}
+
+#justify-aligned {
+    text-align: justify;
+}
+
+p > code {
+    color: var(--precolor);
+    background: var(--prebgcolor);
+    padding: 2px;
+    text-align: justify;
+}
+
+code {
+    color: var(--precolor);
+    background: var(--prebgcolor);
+    padding: 2px;
+    text-align: justify;
+}
+
+pre {
+    color: var(--precolor);
+    background: var(--prebgcolor);
+    padding: 24px;
+    overflow-x: auto;
+    text-align: justify;
+}
+
+article {
+    padding: 24px 0;
+    text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: justify;
+}
+
+figcaption {
+    color: #888;
+    font: 12px/1.5 monospace;
+    text-align: justify;
+}
+
+figure {
+    margin: auto
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto
+}
+
+header {
+    height: 5em;
+    text-align: justify;
+}
