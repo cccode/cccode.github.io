@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meta on Cotton Bog</title>
+    <title>Meta on </title>
     <link>//localhost:1313/categories/meta/</link>
-    <description>Recent content in Meta on Cotton Bog</description>
+    <description>Recent content in Meta on </description>
     <generator>Hugo</generator>
-    <language>en-US</language>
+    <language>en</language>
     <lastBuildDate>Wed, 01 Jan 2025 18:26:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
