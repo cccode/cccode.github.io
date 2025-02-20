@@ -1,0 +1,35 @@
+#+hugo_base_dir: ../
+#+hugo_section: posts
+#+hugo_auto_set_lastmod: t
+#+options: tex:dvisvgm
+#+macro: kbd @@html:<kbd>$1</kbd>@@
+
+#+title: Emacs Server
+#+date: 2025-01-15 Jan 23:19
+#+hugo_tags: performance emacs
+#+hugo_categories: 
+#+hugo_custom_front_matter: :license ""
+
+Emacs can be run as a server and client rather than just a single process. The biggest advantage of running emacs
+in this way is that the client starts instantaneously, a huge performance boost.
+
+The emacs server can be started with the following command:
+
+ #+BEGIN_QUOTE
+  *emacs --daemon*
+ #+END_QUOTE
+
+There are a few options that can be used to start the emacs server. 
+With *--fg-daemon["<server name>"]*, Emacs stays bound to the terminal,
+so you can terminate it by pressing *Ctrl-C*. With *--bg-daemon["<server name>"]*
+and *--daemon*, Emacs detaches from the terminal and runs fully in the background.
+Typically *--fg-daemon["<server name>"]* is used for service launchers like *launchctl*
+on MacOS and *systemctl* on Linux
+
+The emacs server can also be started using brew services if this was used to install emacs.
+Here emacs-plus@29 emacs version is started with home brow:
+
+ #+BEGIN_QUOTE
+  *brew services start emacs-plus@29*
+ #+END_QUOTE
+
